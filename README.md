@@ -190,6 +190,8 @@ At this moment, the process of adding new prompts to the `prompt.json` file requ
 #### New attacks/LLMs issue
 The way to implement a new attack method and a new LLM is clearly not optimal: it is necessary to create a new class for each attack/LLM and implement it following the parent class. Any recommendation is welcomed.
 
+#### Crescendo --multi-turn not available
+
 ## 📚 Bibliography
 
 Here are some of the sources and references that helped in the development of this tool:
