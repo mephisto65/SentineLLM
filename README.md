@@ -37,6 +37,7 @@ Make sure you have the following installed on your system:
 - [Git](https://git-scm.com/)
 - [Python 3.x](https://www.python.org/) (or other required environment)
 - (Optional) [pipenv](https://pipenv.pypa.io/en/latest/) or `venv` for virtual environments
+- API Keys and tokens for anthropic/openai/deepseek/mistral
 
 ### 🔧 Clone the Repository
 
