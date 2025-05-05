@@ -175,6 +175,19 @@ The judge model acts as a **third-party evaluator**. Here's how it typically wor
    - The judge will either confirm that the response was **safe** or indicate if the victim model has **broken its guardrails**.
    - The judge model may also assist in determining the **severity** or **nature** of the violation.
 
+## Current Limitation
+
+At this moment, the process of adding new prompts to the `prompt.json` file requires manual intervention. While tools like `write.py` may be available in the future to automate this process, for now, users need to directly edit the JSON file to include new prompts.
+
+#### Steps for Adding a New Prompt
+
+1. **Open the `prompt.json` File**:
+   Use any text editor (e.g., VSCode, Sublime Text, or even Notepad) to open the `prompt.json` file. This file contains all the prompts and responses in a structured format.
+
+2. **Locate the Prompts Section**:
+   The `prompt.json` file is likely structured in a JSON array or dictionary that holds the various prompts and their associated responses. You'll need to find the section where the prompts are stored.
+
+
 ## 📚 Bibliography
 
 Here are some of the sources and references that helped in the development of this tool:
