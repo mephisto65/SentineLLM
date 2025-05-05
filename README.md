@@ -187,6 +187,8 @@ At this moment, the process of adding new prompts to the `prompt.json` file requ
 2. **Locate the Prompts Section**:
    The `prompt.json` file is likely structured in a JSON array or dictionary that holds the various prompts and their associated responses. You'll need to find the section where the prompts are stored.
 
+#### New attacks/LLMs issue
+The way to implement a new attack method and a new LLM is clearly not optimal: it is necessary to create a new class for each attack/LLM and implement it following the parent class. Any recommendation is welcomed.
 
 ## 📚 Bibliography
 
