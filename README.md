@@ -43,7 +43,7 @@ Make sure you have the following installed on your system:
 Clone this GitHub repository to your local machine:
 
 ```bash
-git clone https://github.com/mephisto65/mytool.git
+git clone https://github.com/mephisto65/SentineLLM
 cd SentineLLM
 
 pip install -r requirements.txt
