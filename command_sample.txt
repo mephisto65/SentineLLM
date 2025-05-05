@@ -1,0 +1,5 @@
+main.py --api-key-a API_Key/mistral_Key.key --api-key-v API_Key/deepseek_Key.key --attacker-model Mistral --victim-model deepseek --jailbreak-type PAIR
+main.py --api-key-v API_Key/deepseek_Key.key --victim-model deepseek --jailbreak-type Crescendo --subtype single
+main.py --api-key-v API_Key/deepseek_Key.key --victim-model deepseek --jailbreak-type DAN --subtype reciprocal
+main.py --api-key-a API_Key/mistral_Key.key --api-key-v API_Key/deepseek_Key.key --attacker-model Mistral --victim-model deepseek --jailbreak-type PAIR --judge-model Mistral --api-key-j API_Key/mistral_Key.key
+main.py --api-key-v API_Key/deepseek_Key.key --victim-model deepseek --jailbreak-type Crescendo --subtype single --judge-model Claude --api-key-j API_Key/mistral_Key.key
